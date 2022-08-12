@@ -111,3 +111,33 @@ header img{
 .section-two .cards-container .card svg{
     height: 70px;
 }
+
+.section-three{
+    display: flex;
+}
+
+.s3-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:40px;
+}
+
+.s3-right h2{
+    font-size:300%;
+}
+
+.s3-right  p{
+    font-size: 125%;
+    padding: 17px;
+    
+}
+
+.s3-right button{
+    width: 170px;
+    border-radius: 12px;
+    background-color: rgb(46, 112, 133);
+    margin-left: 140px;
+    border: none;
+    font-weight: bold;
+}
